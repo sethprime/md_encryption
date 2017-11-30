@@ -1,0 +1,4 @@
+#Md Encrypt Decrypt Service
+services:
+  md_encryption.encryption_service:
+    class: Drupal\md_encryption\Services\MdEncryptionService

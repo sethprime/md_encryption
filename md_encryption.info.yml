@@ -1,0 +1,5 @@
+name: 'md_encryption'
+type: module
+description: 'Encryption Service'
+core: 8.x
+package: MD

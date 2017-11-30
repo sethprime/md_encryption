@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains md_encryption.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function md_encryption_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the mdv_encryption module.
+    case 'help.page.md_encryption':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Encryption Service') . '</p>';
+      return $output;
+
+    default:
+  }
+}
